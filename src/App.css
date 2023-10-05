@@ -1,38 +1,136 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  list-style-type: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-container{
+   text-align: center;
+   background-color: #CAF1DE;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+.nav-bar ul{
+  display: flex;
+}
+.nav-bar ul li{
+  border-radius: 1rem;
+  border: 1px solid gainsboro;
+  margin-left: 1rem;
+  padding-top: .3rem;
+  font-size: .8rem;
+  background-color: #E1F8DC;
+  border: none;
+  width:5rem;
+  height:2rem;
+  outline: none;
+  font-weight: bold;
+
+}
+.nav-link{
+  text-decoration: none;
+}
+.nav-bar button{
+  border-radius: 1.5rem;
+  font-size: .8rem;
+  width:8rem;
+  height:2rem;
+  margin-top: .5rem;
+  outline:none;
+}
+.active{
+  background: blue!important;
+  color:white;
+  font-weight: bold;
+}
+.cities-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background: #CAF1DE;
+}
+.property-card{
+  width:25%;
+  margin: .5rem;
+  padding: .5rem;
+  background: #E1F8DC;
+}
+.one{
+  background-image: url("https://img.freepik.com/free-photo/office-skyscrapers-business-district_107420-95733.jpg?w=740&t=st=1696468209~exp=1696468809~hmac=4999ed3dcba729f3d93e078746440c8b1831ec78d73b2a25c27d438f264ae9af");
+}
+.two{
+  background-image: url("https://img.freepik.com/free-photo/low-angle-shot-grey-skyscrapers-front-river-dark-cloudy-sky_181624-7042.jpg?w=740&t=st=1696468459~exp=1696469059~hmac=54aa222ba711a588c4e851afa1bb4967e8f3ee8cc80854db47d9db1d58cb41de");
+}
+.three{
+  background-image: url("https://img.freepik.com/free-photo/guangzhou-china-jan-7-2015-guangzhou-cbd-view-twilight-view_1137-306.jpg?w=740&t=st=1696468504~exp=1696469104~hmac=97adf69ba71246f61d70a96d96f87f64a701e1326aaea3de7afc3f2f89dd7195");
+}
+.four{
+  background-image: url("https://img.freepik.com/free-photo/complex-aerial-view-city_23-2148975282.jpg?w=740&t=st=1696468541~exp=1696469141~hmac=577574802adfc0537774bd3d25a489bb0200a89b88ac8e8cfdeb0bf505ba9ae3");
+}
+.five{
+  background-image: url("https://img.freepik.com/free-photo/modern-business-center_1127-3152.jpg?w=740&t=st=1696468572~exp=1696469172~hmac=706138f4d9cc1a6f851b8076ef3b50a030ced1e9958604cd1f9d39a20c83d5b6");
+}
+.six{
+  background-image: url("https://img.freepik.com/free-photo/mumbai-skyline-skyscrapers-construction_469504-21.jpg?w=740&t=st=1696468668~exp=1696469268~hmac=fedf7736b1d43b95226548cf98179c5b47d155bc8c9a2cbaddfd08b1c66812ab");
+}
+.img-container{
+  width:100%;
+  height:40vh;
+  border-radius: 1rem;
+  background-size: cover;
+}
+.feature-container{
+  display: flex;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.icons-box{
+  text-align: center;
+  margin-left: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.property-card{
+  border-radius: 1rem;
+  text-decoration: none;
+}
+.details-container{
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.icon{
+  font-size: .7rem;
+  color:grey;
+}
+.heading{
+  color:#090B3C;
+  font-size: 1rem;
+}
+.l-icon{
+  color:orange;
+  margin-right: 1rem;
+}
+.location{
+  color:#16205D;
+  font-size: 1rem;
+}
+.card-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn{
+  border-radius: 1rem!important;
+  font-size: .7rem!important;
+}
+span{
+  color: #090B3C!important;
+  font-size: .8rem;
+}
+.big-container{
+  background-color: #CAF1DE;
+  padding: 1rem;
+}
+.big-container .bottom-btn{
+  margin-left:47%;
 }
